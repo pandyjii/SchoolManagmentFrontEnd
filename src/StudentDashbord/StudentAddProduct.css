@@ -1,0 +1,53 @@
+
+
+.container{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    }
+    
+    .heading{
+        text-align: center;
+    }
+    
+    
+    .form-containe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        position: relative; 
+        top: 0px;
+    
+    }
+    
+    
+    
+    .button-class{
+    
+      width: 100px;
+      padding: 10px;
+      border-radius: 15px;
+      background-color: skyblue;
+      color: #fff;
+      border: none;
+        
+        
+    
+    }
+    
+    input[type="text"] {
+        border-radius: 20px;
+        border: inset;
+    }
+    
+    .validation{
+        color: red;
+        position: relative;
+        top: -10px;
+        margin-bottom: -10px;
+    }

@@ -1,0 +1,117 @@
+
+.Sinup-container{
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+.heading {
+    position: absolute;
+    top: 0px;
+    font-style: normal;
+    font-family: math;
+    font-weight: lighter;
+    color: #00ffffad;
+}
+
+.headings{
+    position: absolute;
+    top: 0px;
+    font-style: normal;
+    font-family: math;
+    font-weight: lighter;
+    color: black;
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid skyblue;
+  top: 50px;
+    height: 350px;
+    width: 300px;
+    box-shadow: 0 2px 4px 0 rgba(14, 30, 37, .16);
+   border-radius: 5px;
+
+    
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 40px;
+    position: absolute;
+    top: 50px;
+    
+}
+
+.button-submit {
+    border: none;
+    width: 232px;
+    height: 29px;
+    border-radius: 9px;
+    margin-left: 5px;
+}
+
+input[type="text"] {
+    width: 220px;
+  
+    padding: 8px;
+    margin-bottom: 8px;
+   
+    border: #c7bd5e94;
+    margin-left: 8px;
+    border: 1px solid rgba(130, 130, 153, 0.425);
+    border-radius: 5px;
+
+   font-size: 15px;
+ 
+
+}
+
+input[type="password"] {
+    width: 220px;
+  
+    padding: 8px;
+    margin-bottom: 8px;
+   
+    border: #c7bd5e94;
+    margin-left: 8px;
+    border: 1px solid rgba(130, 130, 153, 0.425);
+    border-radius: 5px;
+
+   font-size: 15px;
+ 
+
+}
+
+input[type="email"] {
+    width: 220px;
+  
+    padding: 8px;
+    margin-bottom: 8px;
+   
+    border: #c7bd5e94;
+    margin-left: 8px;
+    border: 1px solid rgba(130, 130, 153, 0.425);
+    border-radius: 5px;
+
+   font-size: 15px;
+ 
+
+}
+
+.login-student{
+    position: absolute;
+    top:  310px;
+}
+
+span{
+    color: blue;
+    cursor: pointer;
+}

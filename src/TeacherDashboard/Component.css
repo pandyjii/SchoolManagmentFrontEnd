@@ -1,0 +1,129 @@
+.Navbar-component{
+background-color: skyblue;
+padding: 20px;
+display: flex;
+justify-content: space-around;
+
+text-decoration: none;
+
+}
+
+.Navbar-component a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+
+
+.footer{
+    position: fixed;
+   text-align: center;
+    bottom: 0px;
+   width: 100%;
+   color: #fff;
+   background-color: skyblue;
+  padding: 13px;
+
+ 
+}
+
+.form-container{
+display: flex;
+justify-content: center;
+align-items: center;
+
+/* width: 1200px; */
+/* margin-top: 40px; */
+/* padding: 140px; */
+
+
+}
+
+.input-name{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+width: 180px;
+padding: 8px;
+
+
+}
+
+.input-email{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    padding: 8px;
+}
+
+.input-password{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    padding: 8px;
+}
+
+ input{
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px ;
+    
+}
+
+
+
+ .button-submit{
+   
+    margin-right: 90px;
+    width: 100px;
+    padding: 4px;
+    margin: 10px 0px 0px 20px;
+    background-color: skyblue;
+    color: #fff;
+}
+
+.link-button{
+    background-color: skyblue;
+    border: none;
+    font-size: 15px;
+}
+
+.Navbar-Login{
+    display: flex;
+    background-color: skyblue;
+    padding: 20px;
+   justify-content: space-evenly;
+   text-decoration: none;
+  
+}
+
+.Navbar-Login a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.logo-img{
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    /* margin-right: 10px; */
+}
+
+.name {
+    color: #0c2a74;
+    position: absolute;
+    right: 22px;
+    font-size: 22px;
+    top: 12px;
+}

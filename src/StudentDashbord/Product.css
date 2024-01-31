@@ -1,0 +1,26 @@
+
+.headings{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.headings ul li {
+    display: inline;
+    width: 150px;
+    border: 1px solid red;
+    padding: 10px;
+    background-color: skyblue;
+    color: #fff;
+   
+   
+   
+}
+
+.search{
+  margin-left: 400px;
+}
+
+.sreach-input{
+    text-align: center;
+}
